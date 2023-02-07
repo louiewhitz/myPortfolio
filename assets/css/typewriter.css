@@ -1,0 +1,29 @@
+.typed-text {
+  color: #15b2b2;
+  font-family: var(--redressed);
+  font-weight: 600;
+}
+
+.cursor {
+  display: inline-block;
+  width: 3px;
+  margin-left: 4px;
+  background: var(--teal);
+}
+
+.cursor.blink {
+  animation: blink 0.8s ease-in-out infinite;
+}
+
+@keyframes blink {
+  0%, 100% {
+    background: var(--teal);
+  }
+  40%, 50% {
+    background: transparent;
+  }
+}
+
+.github > img {
+  width: 25px;
+}
