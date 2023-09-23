@@ -116,7 +116,7 @@
 					<div class="media-body">
 						<h2 class="name font-weight-bold mb-1">Louisa Whitaker</h2>
 						<div class="tagline mb-3">I am a <span class="typed-text"></span><span class="cursor blink">&nbsp;</span></div>
-						<div class="bio mb-4">I'm a software engineer specialised in frontend and backend development for complex scalable web apps. I also sing in a rockband, taught myself how to fix engines for a fishing boat I co-own, and know three human languages. Want to know how I may help your project? Check out my project portfolio <a href="https://the-check-in.louisawhitaker.com/" class="card-text github"><img src="assets/fontawesome/css/startup.png">live deployment</a> and <a href="resume.html" class="card-text github"><img src="assets/fontawesome/css/personal-information.png"> online resume</a>.
+						<div class="bio mb-4">I'm a software engineer specialised in frontend and backend development for complex scalable web apps. I also sing in a rockband, taught myself how to fix engines for a fishing boat I co-own, and know three human languages. Want to know how I may help your project? Check out my project portfolio <a href="https://the-check-in.louisawhitaker.com/" class="card-text github"><img src="assets/fontawesome/css/startup.png" alt="live-deployment">live deployment</a> and <a href="resume.html" class="card-text github" alt="resume"><img src="assets/fontawesome/css/personal-information.png" alt="personal information"> online resume</a>.
 						</div><!--//bio-->
 						<div class="mb-4">
 							<!-- <a class="btn btn-primary mr-2 mb-3" href="portfolio.html"><i class="fas fa-arrow-alt-circle-right mr-2"></i><span class="d-none d-md-inline">View</span> Portfolio</a> -->
@@ -135,8 +135,8 @@
 		<section class="overview-section p-3 p-lg-5">
 			<div class="container">
 				<h2 class="section-title font-weight-bold mb-3">What I do</h2>
-				<div class="section-intro mb-5">I have a widely varied experience building software for clients all over the world. Below is a quick overview of my main technical skill sets and technologies I use. Want to find out more about my experience? Check out my <a href="resume.html" class="card-text github"><img src="assets/fontawesome/css/personal-information.png"> online resume</a>
-			 and <a href=" https://github.com/louiewhitz/the-Check-in" class="card-text github"><img src="assets/fontawesome/css/github (1).png"> project repository.</a></p>
+				<div class="section-intro mb-5">I have a widely varied experience building software for clients all over the world. Below is a quick overview of my main technical skill sets and technologies I use. Want to find out more about my experience? Check out my <a href="resume.html" class="card-text github"><img src="assets/fontawesome/css/personal-information.png" alt="personal information"> online resume</a>
+			 and <a href=" https://github.com/louiewhitz/the-Check-in" class="card-text github" alt="final project the check in"><img src="assets/fontawesome/css/github (1).png" alt="Capture Nasa"> project repository.</a></p>
 					<!-- <a href="portfolio.html">project portfolio</a>. -->
 				</div>
 				<div class="row">
@@ -216,7 +216,7 @@
 				<h2 class="section-title font-weight-bold mb-5">Featured Projects</h2>
 				<div class="row">
 					<div class="col-md-6 mb-5">
-						<div class="card project-card">
+						<div class="card project-card checkin" onClick=(CheckInApp)>
 							<div class="row no-gutters">
 								<div class="col-lg-4 card-img-holder">
 									<img src="assets/images/project/logo-black.png" class="card-img" alt="image">
@@ -227,11 +227,11 @@
 										<p class="card-text">The Check-In is a web app built with PERN (PostgreSQL, Express, React, Node) stack. It lets users share information and schedule events for people they care about. The app has a sign-in/register page using JWT and Argon2 for secure authentication. Users can add events with a type, title, description, and optional image (stored in AWS S3) on the Add Event page. The Timeline Page shows all events and images, allowing for editing or deletion. The View Photos page displays all photos in full view. The Scheduling/Calendar page has a React Big Calendar with month, week, day, and agenda views and a datetime picker to schedule events with a title and time.
 											<br/>
 											<br/>
-											<a href="https://the-check-in.louisawhitaker.com/" class="card-text github"><img src="assets/fontawesome/css/startup.png"></a>
+											<a href="https://the-check-in.louisawhitaker.com/" class="card-text github"><img src="assets/fontawesome/css/startup.png" alt="start-up"></a>
 											
 									
 											Deployed App: https://the-check-in.louisawhitaker.com/ <br><br>
-											<a href="https://louiewhitz.github.io/capture-nasa/" class="card-text github"><img src="assets/fontawesome/css/github (1).png"> </a>Github: https://github.com/louiewhitz/the-Check-in
+											<a href="https://louiewhitz.github.io/capture-nasa/" class="card-text github"><img src="assets/fontawesome/css/github (1).png" alt="css"> </a>Github: https://github.com/louiewhitz/the-Check-in
 										</p>
 										<p class="card-text"><small class="text-muted"></small></p>
 									</div>
@@ -248,7 +248,7 @@
 						</div><!--//card-->
 					</div><!--//col-->
 					<div class="col-md-6 mb-5">	
-						<div class="card project-card">
+						<div class="card project-card capnasa" onClick=(CaptureNasa)>
 							<div class="row no-gutters">
 								<div class="col-lg-4 card-img-holder">
 									<img src="assets/images/project/capture-nasa-blue.png" class="card-img" alt="image">
@@ -256,7 +256,7 @@
 								<div class="col-lg-8">
 									<div class="card-body">
 										<h5 class="card-title"><a href="https://louiewhitz.github.io/capture-nasa/" class="theme-link">Capture Nasa</a></h5>
-										<p class="card-text">Capture Nasa is a web application that allows users to view NASA's image or video of the day, save their favorite image or video to a favorites page, and search for past images or videos.This application is fully responsive design for optimal viewing on any device. The app was built using simple front end technologies implementing AJAX requests to NASA's APOD API in order to vie NASA's image and/or video of the day and search by day, month and year in the past. Furthermore, on the homepage, each time the page loads, another AJAX request is sent to Quotable API in order to fetch an inspiring quote.<br>	<br><a href="https://louiewhitz.github.io/capture-nasa/" class="card-text github"><img src="assets/fontawesome/css/artificial-intelligence.png"></a>GitHub Deployment Link: https://louiewhitz.github.io/capture-nasa/</p>
+										<p class="card-text">Capture Nasa is a web application that allows users to view NASA's image or video of the day, save their favorite image or video to a favorites page, and search for past images or videos.This application is fully responsive design for optimal viewing on any device. The app was built using simple front end technologies implementing AJAX requests to NASA's APOD API in order to vie NASA's image and/or video of the day and search by day, month and year in the past. Furthermore, on the homepage, each time the page loads, another AJAX request is sent to Quotable API in order to fetch an inspiring quote.<br>	<br><a href="https://louiewhitz.github.io/capture-nasa/" class="card-text github"><img src="assets/fontawesome/css/artificial-intelligence.png" alt="artifical-intelligence"></a>GitHub Deployment Link: https://louiewhitz.github.io/capture-nasa/</p>
 										<p class="card-text">
 											<a href="https://louiewhitz.github.io/capture-nasa/" class="card-text github" ><img src="assets/fontawesome/css/github (1).png" alt="github-image"> </a>GitHub: https://github.com/louiewhitz/capture-nasa<small class="text-muted"></small></p>
 									</div>
@@ -297,19 +297,18 @@
 						</div><!--//card-->
 					</div><!--//col-->
 					<div class="col-md-6 mb-5">
-						<div class="card project-card">
+						<div class="card project-card snake-game" onClick=(SnakeGame)>
 							<div class="row no-gutters">
 								<div class="col-lg-4 card-img-holder">
-									<img src="assets/images/project/project-4.jpg" class="card-img" alt="image">
+									<img src="assets/images/project/snake.png" class="card-img" alt="image">
 								</div>
 								<div class="col-lg-8">
 									<div class="card-body">
-										<h5 class="card-title"><a href="project.html" class="theme-link">Upcoming project - in production</a></h5>
-										<p class="card-text">App that allows video hosting, managing user accounts and accessing a database using Python.
-											<br />
-											<br />
-										
-										</p>
+										 <h5 class="card-title"><a href="#" class="theme-link">Snake Game</a></h5>
+               Snake Game is a classic arcade game where the player controls a snake that moves around the screen, eating food and growing longer with each piece of food eaten. The game is over when the snake collides with the walls or its own body. This game was built using React, CSS3, and HTML5.<br><br><a href="#" class="card-text github"><img src="assets/fontawesome/css/artificial-intelligence.png" alt="artifical-intelligence"></a>GitHub Deployment Link: https://github.com/louiewhitz/react-snake-game</p><br><br><a href="#" class="card-text github"><img src="assets/fontawesome/css/artificial-intelligence.png" alt="artifical-intelligence"></a>GitHub Deployment Link: N/A</p>
+                <p class="card-text">
+                    <a href="#" class="card-text github"><img src="assets/fontawesome/css/github (1).png" alt="github-image"></a>GitHub: N/A<small class="text-muted"></small>
+                </p>
 										<p class="card-text"><small class="text-muted"></small></p>
 									</div>
 								</div>
@@ -548,6 +547,7 @@
 	<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
 		<script src="assets/js/typewriter.js"></script>
 		<script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+		<script src="assets/js/projectlinks.js"></script>
 	
 	<script src="assets/plugins/tiny-slider/min/tiny-slider.js"></script>
 	<script src="assets/js/testimonials.js"></script>
